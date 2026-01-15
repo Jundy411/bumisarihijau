@@ -12,6 +12,7 @@ import Arsitek from "./sections/Service/Arsitek";
 import Sipil from "./sections/Service/Sipil";
 import Interior from "./sections/Service/Interior";
 import Konsultasi from "./sections/Service/Konsultasi";
+import ProjectRumah from "./sections/Portfolio/ProjectRumah";
 const routeList = createBrowserRouter([
   {
     path: "/",
