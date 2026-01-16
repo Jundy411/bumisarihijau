@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import ScrollTop from "./content/ScrollTop";
 import Home from "./page/Home";
-import AboutUs from "./page/AboutUs";
+// import AboutUs from "./page/AboutUs";
 import Service from "./page/Service";
 import PortfolioPage from "./page/PortfolioPage";
 import BangunanBaru from "./sections/Service/BangunanBaru";
@@ -13,6 +13,7 @@ import Sipil from "./sections/Service/Sipil";
 import Interior from "./sections/Service/Interior";
 import Konsultasi from "./sections/Service/Konsultasi";
 import ProjectRumah from "./sections/Portfolio/ProjectRumah";
+import Gallery from "./page/Gallery";
 const routeList = createBrowserRouter([
   {
     path: "/",
@@ -60,7 +61,7 @@ const routeList = createBrowserRouter([
       },
       {
         path: "galeri",
-        element: <AboutUs />,
+        element: <Gallery />,
       },
     ],
   },

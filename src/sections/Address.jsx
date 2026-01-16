@@ -7,37 +7,27 @@ const Address = () => {
     <>
       <section id="about" className="py-20 bg-light">
        
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="container mx-auto px-4 ">
+          <div className="flex flex-col items-center bg-white rounded-2xl gap-10 py-2">
             
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 text-center">
               <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
                 Lokasi Kami
               </h4>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-dark mb-6">
-                Membangun Bangunan Baru
+                CV Bumi Sari Hijau
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                <strong>CV Bumi Sari Hijau </strong>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Iure molestias obcaecati, iste
-                blanditiis animi nisi beatae, sapiente, temporibus odio sunt
-                voluptatem? Deserunt perferendis doloribus pariatur vitae odio
-                esse sed aliquid error. Nisi quibusdam fuga facere?
-                Reprehenderit laudantium non quam voluptatum provident
-                consectetur quas architecto porro praesentium, maiores numquam
-                vel dolores!
+                Jalan jalan dikota, senang bertemu anda, Rt 02 Rw 04 UH 12, Kota Semarang, Jawa Tengah
               </p>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
-                odio. Necessitatibus officia quam molestias autem, dolor porro
-                minus omnis voluptate.
-              </p>
+              <button onClick={()=>window.open(urlMap) } className="px-5 py-2 bg-primary text-white rounded hover:bg-blue-800 transition shadow-lg transform hover:-translate-y-0.5 cursor-pointer">Buka Maps</button>
+              
             </div>
             <iframe
               title="lokasi"
               src={`${urlMap}`}
               allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              className="w-full lg:w-1/2 h-[70vh] rounded-lg shadow-[0px_0px_10px_2px_#00000024]"
+              className="w-full lg:w-[80%] h-[70vh] rounded-lg shadow-[0px_0px_10px_2px_#00000024]"
             />
           </div>
         </div>
