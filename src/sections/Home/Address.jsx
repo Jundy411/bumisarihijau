@@ -6,10 +6,8 @@ const Address = () => {
   return (
     <>
       <section id="about" className="py-20 bg-light">
-       
         <div className="container mx-auto px-4 ">
           <div className="flex flex-col items-center bg-white rounded-2xl gap-10 py-2">
-            
             <div className="lg:w-1/2 text-center">
               <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
                 Lokasi Kami
@@ -20,8 +18,7 @@ const Address = () => {
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Jalan jalan dikota, senang bertemu anda, Rt 02 Rw 04 UH 12, Kota Semarang, Jawa Tengah
               </p>
-              <button onClick={()=>window.open(urlMap) } className="px-5 py-2 bg-primary text-white rounded hover:bg-blue-800 transition shadow-lg transform hover:-translate-y-0.5 cursor-pointer">Buka Maps</button>
-              
+              <button onClick={()=>window.open(urlMap) } className="px-5 py-2 bg-primary text-white rounded hover:bg-blue-800 transition shadow-lg transform hover:-translate-y-0.5 cursor-pointer">Buka Maps</button>F
             </div>
             <iframe
               title="lokasi"

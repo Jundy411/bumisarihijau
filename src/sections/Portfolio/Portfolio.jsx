@@ -3,11 +3,13 @@ import { NavLink } from "react-router-dom";
 const Portfolio = () => {
   return (
     <>
-      <section id="portfolio" className="py-20 bg-white">
+
+      <section id="portfolio" className="py-20 bg-light">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
-              Galeri Proyek
+              Portfolio Kami
+
             </h4>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-dark">
               Karya Terbaru Kami
