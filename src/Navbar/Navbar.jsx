@@ -89,11 +89,17 @@ const Navbar = () => {
                 Portofolio
               </p>
             </NavLink>
+<<<<<<< HEAD
             <NavLink to={"galeri"}>
               <p className="mobile-link text-gray-600 hover:text-primary">
                 Galeri
               </p>
             </NavLink>
+=======
+            <NavLink to={"/galeri"}>
+                <p className="hover:text-primary transition">Galeri</p>
+              </NavLink>
+>>>>>>> b671a8f757c4163f69561e8900edb3d0bb1f9d21
             <p
               className="mobile-link px-4 py-2 bg-primary text-white rounded text-center"
               onClick={() =>

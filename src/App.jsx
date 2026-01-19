@@ -3,7 +3,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import ScrollTop from "./content/ScrollTop";
 import Home from "./page/Home";
+<<<<<<< HEAD
 // import AboutUs from "./page/AboutUs";
+=======
+import AboutUs from "./page/AboutUs";
+>>>>>>> b671a8f757c4163f69561e8900edb3d0bb1f9d21
 import Service from "./page/Service";
 import PortfolioPage from "./page/PortfolioPage";
 import BangunanBaru from "./sections/Service/BangunanBaru";
@@ -13,7 +17,10 @@ import Sipil from "./sections/Service/Sipil";
 import Interior from "./sections/Service/Interior";
 import Konsultasi from "./sections/Service/Konsultasi";
 import ProjectRumah from "./sections/Portfolio/ProjectRumah";
+<<<<<<< HEAD
 import Gallery from "./page/Gallery";
+=======
+>>>>>>> b671a8f757c4163f69561e8900edb3d0bb1f9d21
 const routeList = createBrowserRouter([
   {
     path: "/",
@@ -56,12 +63,20 @@ const routeList = createBrowserRouter([
         element: <PortfolioPage />,
       },
       {
+<<<<<<< HEAD
         path:"/rumah",
+=======
+        path:"rumah",
+>>>>>>> b671a8f757c4163f69561e8900edb3d0bb1f9d21
         element:<ProjectRumah/>
       },
       {
         path: "galeri",
+<<<<<<< HEAD
         element: <Gallery />,
+=======
+        element: <AboutUs />,
+>>>>>>> b671a8f757c4163f69561e8900edb3d0bb1f9d21
       },
     ],
   },
