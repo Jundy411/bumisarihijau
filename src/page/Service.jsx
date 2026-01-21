@@ -6,8 +6,8 @@ import Blank from "../sections/Blank";
 const Service = () => {
   return (
     <>
-    <ScrollTop/>
-    <Blank/>
+      <ScrollTop />
+      <Blank />
       <Services />
       <Footer />
     </>

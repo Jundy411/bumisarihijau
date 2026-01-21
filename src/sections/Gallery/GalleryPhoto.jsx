@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const images = Array.from({ length: 20 }, (_, i) => ({
   id: i + 1,
@@ -9,10 +11,14 @@ const images = Array.from({ length: 20 }, (_, i) => ({
 
 const GalleryPhoto = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
     <>
       <section className="py-20 bg-light">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4" data-aos="fade-up">
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
               Gallery Kami

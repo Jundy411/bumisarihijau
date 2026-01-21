@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { NavLink } from "react-router-dom";
 import {
   FaHouse,
@@ -8,12 +8,18 @@ import {
   FaCouch,
   FaClipboardCheck,
 } from "react-icons/fa6";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
+
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
     <>
       <section id="services" className="py-20 bg-light">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4" data-aos="fade-up">
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
               Layanan Kami
