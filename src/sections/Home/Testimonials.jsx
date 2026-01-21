@@ -66,7 +66,7 @@ export default function TestimonialPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4 py-10">
+    <div className="lg:min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4 py-10">
       <div data-aos="fade-up">
       <div className="text-center mb-16">
         <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
