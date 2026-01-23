@@ -42,8 +42,7 @@ const About = () => {
                 residensial skala besar.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Kami percaya bahwa setiap bangunan memiliki cerita. Tim insinyur
-                dan arsitek kami bekerja dengan integritas tinggi, memastikan
+                Kami percaya bahwa setiap bangunan memiliki cerita. Tim arsitek dan tenaga profesional kami bekerja dengan integritas tinggi, memastikan
                 setiap detail konstruksi aman, estetis, dan tahan lama.
               </p>
 

@@ -52,7 +52,7 @@ const Header = () => {
                 </a>
               </NavLink>
               <a
-                href="https://wa.me/6285142611363?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20proyek%20bangunan."
+                href="https://wa.me/6285643711803?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20proyek%20bangunan."
                 target="_blank"
                 className="px-8 py-4 border-2 border-white text-white font-bold rounded hover:bg-white hover:text-dark transition flex items-center justify-center gap-2"
               >

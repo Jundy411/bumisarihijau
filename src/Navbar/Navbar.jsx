@@ -46,7 +46,7 @@ const Navbar = () => {
                 className="px-5 py-2 bg-primary text-white rounded hover:bg-blue-800 transition shadow-lg transform hover:-translate-y-0.5 cursor-pointer"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/6285142611363?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20Dumeling.",
+                    "https://wa.me/6285643711803?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20Dumeling.",
                   )
                 }
               >
@@ -101,7 +101,7 @@ const Navbar = () => {
               className="mobile-link px-4 py-2 bg-primary text-white rounded text-center"
               onClick={() =>
                 window.open(
-                  "https://wa.me/6285142611363?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20Dumeling.",
+                  "https://wa.me/6285643711803?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20Dumeling.",
                 )
               }
             >

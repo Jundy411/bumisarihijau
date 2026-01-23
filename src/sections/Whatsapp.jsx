@@ -7,7 +7,7 @@ const Whatsapp = () => {
       <div
         onClick={() =>
           window.open(
-            "https://wa.me/6285142611363?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20Dumeling."
+            "https://wa.me/6285643711803?text=Halo,%20saya%20tertarik%20menggunakan%20jasa%20kontraktor%20Tukang%20Bangunan%20."
           )
         }
         target="_blank"
