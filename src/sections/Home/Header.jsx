@@ -3,13 +3,14 @@ import { FaEye, FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import headerImg from '../../assets/headerImg.jpg'
 const Header = () => {
   useEffect(() => {
     AOS.init();
   }, []);
 
   const Image =
-    "https://plus.unsplash.com/premium_photo-1661943489715-ea5e9dac7852?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+    headerImg
 
   const backgrounds = {
     backgroundImage: `url(${Image})`,
@@ -34,7 +35,7 @@ const Header = () => {
               data-aos="fade-up"
               className="bg-secondary text-white px-3 py-1 text-sm font-bold uppercase tracking-wider rounded mb-4 inline-block animate-fade-in-up"
             >
-              Kontraktor Profesional Sejak 2010
+              Kontraktor Profesional Sejak 2012
             </span>
             <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Mewujudkan Bangunan{" "}

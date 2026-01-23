@@ -1,15 +1,25 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Portfolio = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-
       <section id="portfolio" className="py-20 bg-light">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4" data-aos="fade-up">
+          <div className=" flex items-center gap-3 font-bold uppercase text-gray-600">
+            <span className=" cursor-pointer" onClick={() => navigate("/")}>
+              Beranda
+            </span>
+            / <span>Portofolio</span>
+          </div>
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
               Portfolio Kami
-
             </h4>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-dark">
               Karya Terbaru Kami
@@ -32,9 +42,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Rumah Modern Minimalis
+                    Project 1
                   </h3>
-                  <p className="text-gray-200 text-sm">Brebes</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>
@@ -50,9 +60,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Renovasi Interior Mewah
+                    Project 2
                   </h3>
-                  <p className="text-gray-200 text-sm">Surabaya</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>
@@ -68,9 +78,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Villa Tropis
+                    Project 3
                   </h3>
-                  <p className="text-gray-200 text-sm">Bali</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>
@@ -86,9 +96,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Gedung Kantor 5 Lantai
+                    Project 4
                   </h3>
-                  <p className="text-gray-200 text-sm">Bandung</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>
@@ -103,9 +113,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Kitchen Set Industrial
+                    Project 5
                   </h3>
-                  <p className="text-gray-200 text-sm">Tangerang</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>
@@ -120,9 +130,9 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-4 text-center">
                   <h3 className="text-white font-bold text-xl mb-1">
-                    Renovasi Façade Ruko
+                    Project 6
                   </h3>
-                  <p className="text-gray-200 text-sm">Bekasi</p>
+                  <p className="text-gray-200 text-sm">Tempat</p>
                 </div>
               </div>
             </NavLink>

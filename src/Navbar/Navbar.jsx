@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, NavLink, Outlet } from "react-router-dom";
 import { FaBars, FaBuilding } from "react-icons/fa";
 import Whatsapp from "../sections/Whatsapp";
+import logo1 from '../assets/logo1.png'
 const Navbar = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,8 @@ const Navbar = () => {
               className="flex items-center gap-2 cursor-pointer"
               onClick={() => navigate("/")}
             >
-              <div className="w-10 h-10 bg-secondary flex items-center justify-center rounded text-white font-bold text-xl">
-                <FaBuilding />
+              <div className="w-10 h-10  flex items-center justify-center rounded text-white font-bold text-xl">
+                <img src={logo1} alt="logo" />
               </div>
               <span className="font-heading text-2xl font-bold text-primary tracking-wide">
                 CV BUMI SARI HIJAU

@@ -24,7 +24,7 @@ const Statistic = () => {
                     <p className="text-blue-200">Kepuasan Klien</p>
                 </div>
                 <div>
-                    <h3 className="text-4xl font-heading font-bold mb-2">15</h3>
+                    <h3 className="text-4xl font-heading font-bold mb-2">13</h3>
                     <p className="text-blue-200">Tahun Pengalaman</p>
                 </div>
             </div>

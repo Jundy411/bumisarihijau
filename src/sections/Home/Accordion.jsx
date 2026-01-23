@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import accordionImg from '../../assets/accordionImg.jpg'
 
 export default function Accordion() {
   const [open, setOpen] = useState(null);
@@ -91,7 +92,7 @@ export default function Accordion() {
         {/* IMAGE SECTION */}
         <div className="hidden lg:block lg:w-1/2">
           <img
-            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+            src={accordionImg}
             alt="Konstruksi Bangunan"
             className="w-full h-full object-cover rounded-2xl shadow-sm"
           />

@@ -8,7 +8,7 @@ const Header = () => {
       <section className="hero-pattern h-screen min-h-150 flex items-center justify-center text-white bg-dark relative">
         <div className="container mx-auto px-4 text-center z-10 pt-16">
           <span className="bg-secondary text-white px-3 py-1 text-sm font-bold uppercase tracking-wider rounded mb-4 inline-block animate-fade-in-up">
-            Kontraktor Profesional Sejak 2010
+            Kontraktor Profesional Sejak 2012
           </span>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Mewujudkan Bangunan{" "}

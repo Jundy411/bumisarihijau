@@ -1,24 +1,74 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import { useNavigate } from "react-router-dom";
+import img1 from '../../assets/project1.jpeg'
+import img2 from '../../assets/project2.jpeg'
+import img3 from '../../assets/project3.jpeg'
+import img4 from '../../assets/project4.jpeg'
+import img5 from '../../assets/project5.jpeg'
+import img6 from '../../assets/project6.jpeg'
+import img7 from '../../assets/project7.jpeg'
+import img8 from '../../assets/project8.jpeg'
 
-const images = Array.from({ length: 20 }, (_, i) => ({
-  id: i + 1,
-  src: `https://picsum.photos/seed/${i + 1}/600/400`,
-  title: `Gambar ${i + 1}`,
-}));
+const images = [
+  {
+    id:1,
+    src:img1,
+    title:"gambar 1"
+  },
+  {
+    id:2,
+    src:img2,
+    title:"gambar 2"
+  },
+  {
+    id:3,
+    src:img3,
+    title:"gambar 3"
+  },
+  {
+    id:4,
+    src:img4,
+    title:"gambar 4"
+  },
+  {
+    id:5,
+    src:img5,
+    title:"gambar 5"
+  },
+  {
+    id:6,
+    src:img6,
+    title:"gambar 6"
+  },
+  {
+    id:7,
+    src:img7,
+    title:"gambar 7"
+  },
+  {
+    id:8,
+    src:img8,
+    title:"gambar 8"
+  },
+];
 
 const GalleryPhoto = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  useEffect(() => {
-    Aos.init();
-  },[])
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="py-20 bg-light">
         <div className="container mx-auto px-4">
+          <div className=" flex items-center gap-3 font-bold uppercase text-gray-600">
+            <span className=" cursor-pointer" onClick={() => navigate("/")}>
+              Beranda
+            </span>
+            / <span>Galeri</span>
+            
+          </div>
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
               Gallery Kami

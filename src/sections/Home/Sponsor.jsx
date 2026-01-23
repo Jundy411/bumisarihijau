@@ -41,7 +41,7 @@ export default function Sponsor() {
       <div data-aos="fade-up">
       <div className="text-center mb-16">
         <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
-          Sponsor Kami
+          Partner Kami
         </h4>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-white">
           Partner Yang Mendukung Kami

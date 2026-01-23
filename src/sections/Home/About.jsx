@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import aboutImg from '../../assets/aboutImg.jpg'
 const About = () => {
   useEffect(() => {
     Aos.init();
@@ -13,13 +14,13 @@ const About = () => {
             <div className="lg:w-1/2 relative">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src={aboutImg}
                   alt="Tim Konstruksi"
                   className="w-full h-auto object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded shadow-xl border-l-4 border-secondary hidden md:block">
-                <p className="text-4xl font-heading font-bold text-primary">15+</p>
+                <p className="text-4xl font-heading font-bold text-primary">13+</p>
                 <p className="text-gray-600 text-sm font-medium">
                   Tahun Pengalaman
                 </p>
@@ -33,8 +34,8 @@ const About = () => {
                 Membangun Kepercayaan Melalui Kualitas
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                <strong>Tukang Bangunan Dumeling</strong> didirikan pada tahun
-                2010 dengan visi untuk menjadi mitra konstruksi yang paling
+                <strong>CV Bumi Sari Hijau</strong> didirikan pada tahun
+                2012 dengan visi untuk menjadi mitra konstruksi yang paling
                 dapat diandalkan di Indonesia. Kami memulai sebagai tim kecil
                 yang menangani renovasi rumah, dan kini telah berkembang menjadi
                 perusahaan kontraktor yang menangani proyek komersial dan
