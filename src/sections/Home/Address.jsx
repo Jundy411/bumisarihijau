@@ -22,7 +22,7 @@ const Address = () => {
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-dark mb-10">
                 CV Bumi Sari Hijau
               </h2>
-              <div className=" flex flex-col lg:flex-row justify-between items-center gap-10">
+              <div className=" flex flex-col lg:flex-row justify-between items-center gap-10 p-2">
                 <iframe
                   title="lokasi"
                   src={`${urlMap}`}
@@ -31,22 +31,22 @@ const Address = () => {
                   referrerpolicy="no-referrer-when-downgrade"
                   className="w-full h-[70vh] rounded-lg shadow-[0px_0px_10px_2px_#00000024]"
                 />
-                <div>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                <div className=" w-full flex flex-col items-center justify-center">
+                  <p className="text-gray-600 mb-6 leading-relaxed ">
                     Jalan jalan dikota, senang bertemu anda, Rt 02 Rw 04 UH 12,
                     Kota Semarang, Jawa Tengah
                   </p>
-                  <div className=" flex justify-center gap-5">
+                  <div className=" flex flex-col md:flex-row justify-center gap-5">
                     <button
                       onClick={() => window.open(urlMap)}
-                      className="px-5 py-2 bg-[#EA4335] flex items-center gap-1 text-white rounded transition shadow-lg cursor-pointer"
+                      className=" w-37.5 px-5 py-2 bg-[#EA4335] flex justify-center items-center gap-1 text-white rounded transition shadow-lg cursor-pointer "
                     >
                       <span><FaMapMarkerAlt/></span>Maps
                     </button>
-                    <button className="px-5 py-2 flex items-center gap-1 bg-blue-800 text-white rounded shadow-lg cursor-pointer">
+                    <button className=" w-37.5 px-5 py-3 flex justify-center items-center gap-1 bg-blue-800 text-white rounded shadow-lg cursor-pointer">
                       <span><FaFacebookSquare/></span>Facebook
                     </button>
-                    <button className="px-5 py-2 flex items-center gap-1 bg-black text-white rounded  shadow-lg  cursor-pointer">
+                    <button className="w-37.5 px-5 py-2 flex justify-center items-center gap-1 bg-black text-white rounded  shadow-lg  cursor-pointer">
                       <span><FaTiktok/></span>Tik tok
                     </button>
                   </div>
