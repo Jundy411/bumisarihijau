@@ -22,6 +22,10 @@ const Sipil = () => {
         <div className="container mx-auto px-4">
           <div className=" mb-10">
             <div className=" flex items-center gap-3 font-bold uppercase text-gray-600">
+              <span className=" cursor-pointer" onClick={() => navigate("/")}>
+                Beranda
+              </span>{" "}
+              /
               <span
                 className=" cursor-pointer"
                 onClick={() => navigate("/service")}

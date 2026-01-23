@@ -22,8 +22,17 @@ const BangunanBaru = () => {
         <div className="container mx-auto px-4">
           <div className=" mb-10">
             <div className=" flex items-center gap-3 font-bold uppercase text-gray-600">
-              <span className=" cursor-pointer" onClick={() => navigate("/service")}>Layanan</span>/{" "}
-              <span>Bangunan Baru</span>
+              <span className=" cursor-pointer" onClick={() => navigate("/")}>
+                Beranda
+              </span>{" "}
+              /
+              <span
+                className=" cursor-pointer"
+                onClick={() => navigate("/service")}
+              >
+                Layanan
+              </span>
+              / <span>Bangunan Baru</span>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -50,10 +59,18 @@ const BangunanBaru = () => {
                 Membangun Bangunan Baru
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                <strong>CV Bumi Sari Hijau </strong>Kami menyediakan layanan pembangunan bangunan baru yang dikerjakan secara profesional, terencana, dan sesuai standar konstruksi. Mulai dari rumah tinggal, ruko, gedung perkantoran, hingga bangunan komersial lainnya, setiap proyek kami kerjakan dengan perhitungan teknis yang matang dan material berkualitas.
+                <strong>CV Bumi Sari Hijau </strong>Kami menyediakan layanan
+                pembangunan bangunan baru yang dikerjakan secara profesional,
+                terencana, dan sesuai standar konstruksi. Mulai dari rumah
+                tinggal, ruko, gedung perkantoran, hingga bangunan komersial
+                lainnya, setiap proyek kami kerjakan dengan perhitungan teknis
+                yang matang dan material berkualitas.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Tim kami akan mendampingi klien dari tahap perencanaan hingga bangunan siap digunakan. Dengan manajemen proyek yang rapi, transparan, dan tepat waktu, kami memastikan hasil bangunan kokoh, aman, serta sesuai dengan kebutuhan dan anggaran klien.
+                Tim kami akan mendampingi klien dari tahap perencanaan hingga
+                bangunan siap digunakan. Dengan manajemen proyek yang rapi,
+                transparan, dan tepat waktu, kami memastikan hasil bangunan
+                kokoh, aman, serta sesuai dengan kebutuhan dan anggaran klien.
               </p>
 
               {/* <div className="grid grid-cols-2 gap-6">

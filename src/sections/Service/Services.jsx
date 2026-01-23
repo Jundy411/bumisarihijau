@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   FaHouse,
   FaHammer,
@@ -12,7 +12,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Services = () => {
-
+  const navigate = useNavigate();
   useEffect(() => {
     Aos.init();
   },[])
@@ -20,6 +20,15 @@ const Services = () => {
     <>
       <section id="services" className="py-20 bg-light">
         <div className="container mx-auto px-4" data-aos="fade-up">
+          <div className=" flex items-center gap-3 font-bold uppercase text-gray-600">
+              <span
+                className=" cursor-pointer"
+                onClick={() => navigate("/")}
+              >
+                Beranda
+              </span>
+              / <span>Layanan</span>
+            </div>
           <div className="text-center mb-16">
             <h4 className="text-secondary font-bold uppercase tracking-wider mb-2">
               Layanan Kami
